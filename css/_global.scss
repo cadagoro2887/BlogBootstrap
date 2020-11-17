@@ -1,0 +1,33 @@
+// GOOGLE FONTS
+// @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section{
+    overflow: hidden;
+}
+
+    // ---- FONTS
+    $Sniglet: 'Sniglet', cursiva;
+    $Rubik: 'Rubik', cursive;
+    $PatuaOne: 'Patua One', cursive;
+    $Lobster: 'Lobster', cursive;
+    $Acme:'Acme', cursiva;
+
+    // ---- COLOR
+    $gradient: linear-gradient(to bottom,  #007adf, #00ecbc);
+    $light-gray: rgba(255,255,255, 0.77);
+    $light-black: #2e2c2caf;
+
+
+// HEADER ELEMENT A
+header a{
+    font-family: $Sniglet;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
