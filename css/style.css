@@ -15,6 +15,18 @@ header a {
   color: whitesmoke;
 }
 
+main .purchase > h2 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: "Lobster", cursive;
+  font-size: 2.5em;
+}
+main .purchase > p {
+  color: #2e2c2caf;
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
 header {
   background: #007abf;
   background: linear-gradient(to bottom, #007adf, #00ecbc);
@@ -111,6 +123,77 @@ main .section_1 .row .col-md-6 .panel h2 {
 main .section_1 .row .col-md-6 .panel p {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
+}
+main .section_2 .cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../assets/BANNERMAIN/BannerMain_2.jpg");
+  background-position: 10rem -27rem;
+  background-size: 100%;
+  position: relative;
+}
+main .section_2 .cover .content {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+}
+main .section_2 .cover .content h2 {
+  font-family: "Patua One", cursive;
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+main .section_2 .cover .content p {
+  font-family: "Rubik", cursive;
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+main .section_2 .container-fluid .numbers {
+  margin-top: -15vmin;
+}
+main .section_2 .container-fluid .numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px rgba(0, 236, 188, 0.449);
+}
+main .section_2 .container-fluid .numbers .rect h2 {
+  font-size: 5rem;
+  color: #00ecbc;
+}
+main .section_2 .container-fluid .numbers .rect p {
+  font-family: "Patua One", cursive;
+}
+main .section_2 .purchase .cards div {
+  padding: 0;
+  margin: 0;
+}
+main .section_2 .purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin;
+}
+main .section_2 .purchase .cards .card .card-body .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+}
+main .section_2 .purchase .cards .card .card-body .card-text {
+  padding: 2.5rem 3rem;
+  color: #2e2c2caf;
+}
+main .section_2 .purchase .cards .card .card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-bottom-right-radius: 170px;
+  border-bottom-left-radius: 170px;
+}
+main .section_2 .purchase .cards .card .card-body .pricing h2 {
+  font-size: 8vmin;
+  padding: 1em 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,33 +1,54 @@
 // GOOGLE FONTS
 // @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header,
-section{
+section {
     overflow: hidden;
 }
 
-    // ---- FONTS
-    $Sniglet: 'Sniglet', cursiva;
-    $Rubik: 'Rubik', cursive;
-    $PatuaOne: 'Patua One', cursive;
-    $Lobster: 'Lobster', cursive;
-    $Acme:'Acme', cursiva;
+// ---- FONTS
+$Sniglet: 'Sniglet',
+cursiva;
+$Rubik: 'Rubik',
+cursive;
+$PatuaOne: 'Patua One',
+cursive;
+$Lobster: 'Lobster',
+cursive;
+$Acme:'Acme',
+cursiva;
 
-    // ---- COLOR
-    $gradient: linear-gradient(to bottom,  #007adf, #00ecbc);
-    $light-gray: rgba(255,255,255, 0.77);
-    $light-black: #2e2c2caf;
+// ---- COLOR
+$gradient: linear-gradient(to bottom, #007adf, #00ecbc);
+$light-gray: rgba(255, 255, 255, 0.77);
+$light-black: #2e2c2caf;
 
 
 // HEADER ELEMENT A
-header a{
+header a {
     font-family: $Sniglet;
     font-size: 0.9em;
     color: whitesmoke;
+}
+
+// MAIN CLASS PURCHASE 
+main {
+    .purchase>h2 {
+        padding-top: 15vmin;
+        padding-bottom: 0.1em;
+        font-family: $Lobster;
+        font-size: 2.5em;
+    }
+
+    .purchase>p {
+        color: $light-black;
+        font-size: 3vmin;
+        padding-bottom: 10vmin;
+    }
 }
