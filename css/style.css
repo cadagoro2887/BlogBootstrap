@@ -252,4 +252,35 @@ main .section_4 .carousel-item {
   padding-left: 3rem;
 }
 
+footer {
+  background: #333;
+  overflow: hidden;
+  padding: 14vmin 18vmin;
+}
+footer p {
+  padding: 0.5vmin;
+}
+footer span {
+  color: #00ecbc;
+}
+footer .input-group input {
+  border: none !important;
+}
+footer .input-group input::placeholder {
+  color: white !important;
+}
+footer .input-group .input-group-text {
+  background: linear-gradient(to bottom, #007adf, #00ecbc);
+  border: none;
+  cursor: pointer;
+}
+footer .column {
+  color: #00ecbc;
+}
+footer .column i {
+  font-size: 3vmin;
+  padding: 0 0.4em;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
