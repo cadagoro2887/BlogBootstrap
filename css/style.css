@@ -224,5 +224,32 @@ main .section_3 .desktop h3 {
 main .section_3 .desktop p {
   font-size: 2vmin;
 }
+main .section_4 .container h2 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+main .section_4 .container p {
+  font-size: 1.5em;
+}
+main .section_4 .team {
+  padding: 10vmin 4vmin;
+}
+main .section_4 .team .card {
+  width: 22rem;
+  margin-top: 10vmin;
+}
+main .section_4 .team .card .border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+main .section_4 .team .card .card-body a {
+  font-size: 1.5em;
+}
+main .section_4 .team .card .card-body .card-text {
+  padding: 0.5em;
+}
+main .section_4 .carousel-item {
+  padding-left: 3rem;
+}
 
 /*# sourceMappingURL=style.css.map */

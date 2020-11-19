@@ -181,4 +181,47 @@ main {
             }
         }
     }
+
+    // SECTION #4
+    .section_4 {
+        .container {
+            h2 {
+                font-size: 6vmin;
+                padding-top: 14vmin;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+
+        .team {
+            padding: 10vmin 4vmin;
+
+            .card {
+                width: 22rem;
+                margin-top: 10vmin;
+
+                .border-radius {
+                    border-radius: 340px;
+                    width: 60%;
+                }
+
+                .card-body {
+                    a {
+                        font-size: 1.5em;
+                    }
+
+                    .card-text {
+                        padding: 0.5em;
+                    }
+                }
+
+            }
+        }
+
+        .carousel-item {
+            padding-left: 3rem;
+        }
+    }
 }
