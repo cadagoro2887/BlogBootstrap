@@ -195,5 +195,34 @@ main .section_2 .purchase .cards .card .card-body .pricing h2 {
   font-size: 8vmin;
   padding: 1em 0.5em;
 }
+main .section_3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: linear-gradient(to bottom, #007adf, #00ecbc);
+}
+main .section_3 .col-md-12 h2 {
+  padding: 2em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+}
+main .section_3 .col-md-12 p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: rgba(255, 255, 255, 0.77);
+  font-size: 3vmin;
+}
+main .section_3 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+main .section_3 .desktop h3 {
+  font-size: 4vmin;
+}
+main .section_3 .desktop p {
+  font-size: 2vmin;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -143,4 +143,42 @@ main {
             }
         }
     }
+
+    // SECTION #3
+    .section_3 {
+        height: 70vmin;
+        margin-top: 15vmin;
+        background: $gradient;
+
+        .col-md-12 {
+            h2 {
+                padding: 2em 0 0.5em 0;
+                color: whitesmoke;
+                font-size: 6vmin;
+            }
+
+            p {
+                padding: 0 4em;
+                padding-bottom: 2em;
+                color: $light-gray;
+                font-size: 3vmin;
+            }
+        }
+
+        .desktop {
+            background: white;
+            display: inline-block;
+            border-radius: 3em;
+            padding: 2vmin 4.5vmin;
+            margin: 1em;
+
+            h3 {
+                font-size: 4vmin;
+            }
+
+            p {
+                font-size: 2vmin;
+            }
+        }
+    }
 }
