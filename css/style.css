@@ -317,8 +317,14 @@ footer .column i {
   main .section_3 .row .col-md-6 {
     text-align: center;
   }
-  main .section_3 .row .col-md-6 .desktop i {
+  main .section_3 .row .col-md-6 .desktop .fas fa-desktop {
     font-size: 8vmin;
+  }
+  main .section_3 .row .col-md-6 .desktop .fas fa-mobile-alt {
+    font-size: 8vmin;
+  }
+  main .section_3 .row .col-md-6 .desktop h3 {
+    font-size: 3vmin;
   }
   main .section_4 .team {
     display: flex;
@@ -382,6 +388,14 @@ footer .column i {
   main .section_4 .carousel-inner {
     margin-left: -110px !important;
   }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
 }
 
 /*# sourceMappingURL=style.css.map */

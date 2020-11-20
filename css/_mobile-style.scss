@@ -51,10 +51,20 @@
                     text-align: center;
 
                     .desktop {
-                        i {
+                        .fas fa-desktop {
                             font-size: 8vmin;
                         }
+
+                        .fas fa-mobile-alt {
+                            font-size: 8vmin;
+                        }
+
+                        h3 {
+                            font-size: 3vmin;
+                        }
                     }
+
+
                 }
             }
         }
