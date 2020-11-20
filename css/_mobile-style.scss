@@ -1,0 +1,196 @@
+// MEDIAQUERY 768PX
+@media only screen and(max-width:768px) {
+    header {
+        .navbar-brand {
+            padding-left: 1rem;
+        }
+    }
+
+    main {
+        .section_1 {
+            .row {
+                .col-md-6 {
+                    .panel {
+                        position: initial;
+                        width: initial;
+                        height: initial;
+                    }
+                }
+            }
+        }
+
+        .section_2 {
+            .cover {
+                background-position: 10vmin -25vmin;
+            }
+
+            .container-fluid {
+                .numbers {
+                    .rect {
+                        width: 9rem;
+                        height: 8rem;
+
+                        h2 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section_3 {
+            height: inherit;
+            padding: 10vmin !important;
+
+            .row {
+                h2 {
+                    padding: 6vmin 4vmin;
+                }
+
+                .col-md-6 {
+                    text-align: center;
+
+                    .desktop {
+                        i {
+                            font-size: 8vmin;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section_4 {
+
+            .team {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+
+                .card {
+                    margin-left: -57px;
+                }
+
+            }
+
+            .carousel-inner {
+                width: 33rem;
+                margin-left: -107px;
+
+                .carousel-item {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+
+    footer {
+        .row {
+            .col-lg-2 {
+                margin-top: 8vmin;
+            }
+        }
+
+        .column {
+            i {
+                font-size: 6vmin;
+            }
+        }
+    }
+}
+
+// END
+
+// MEDIAQUERY 425PX
+@media only screen and(max-width:425px) {
+
+    main {
+        .section_2 {
+            .title {
+                margin-top: 2rem !important;
+            }
+        }
+
+        .section_3 {
+            .platform {
+
+                .desktop {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 1rem;
+                }
+
+            }
+
+
+        }
+
+        .section_4 {
+            .team {
+                .card {
+                    margin-left: 20px !important;
+                }
+
+            }
+
+            .carousel-inner {
+                margin-left: -67px !important;
+            }
+        }
+    }
+
+    footer {
+        .row {
+            .col-lg-2 {
+                margin-top: 8vmin;
+            }
+        }
+
+        .column {
+            i {
+                font-size: 6vmin;
+            }
+        }
+    }
+
+}
+
+// END
+
+// MEDIAQUERY 375PX
+@media only screen and(max-width:375px) {
+    main {
+        .section_4 {
+            .team {
+                .card {
+                    margin-left: -2px !important;
+                }
+
+            }
+
+            .carousel-inner {
+                margin-left: -82px !important;
+            }
+        }
+    }
+}
+
+// END
+
+// MEDIAQUERY 320PX
+@media only screen and(max-width:320px) {
+    main {
+        .section_4 {
+            .team {
+                .card {
+                    width: 18rem !important;
+                    margin-left: 2px !important;
+                }
+            }
+
+            .carousel-inner {
+                margin-left: -110px !important;
+            }
+
+        }
+    }
+}

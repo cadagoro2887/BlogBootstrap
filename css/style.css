@@ -176,9 +176,10 @@ main .section_2 .purchase .cards div {
 main .section_2 .purchase .cards .card {
   width: 22rem;
   margin: 3vmin;
+  border: none;
 }
 main .section_2 .purchase .cards .card .card-body .title {
-  background: rgba(208, 241, 241, 0.199);
+  background: rgba(0, 236, 188, 0.449);
   padding: 1.4rem 2.5rem;
   font-size: 2vmin;
 }
@@ -187,13 +188,16 @@ main .section_2 .purchase .cards .card .card-body .card-text {
   color: #2e2c2caf;
 }
 main .section_2 .purchase .cards .card .card-body .pricing {
-  background: rgba(208, 241, 241, 0.199);
+  background: rgba(0, 236, 188, 0.449);
   border-bottom-right-radius: 170px;
   border-bottom-left-radius: 170px;
 }
 main .section_2 .purchase .cards .card .card-body .pricing h2 {
   font-size: 8vmin;
   padding: 1em 0.5em;
+}
+main .section_2 .purchase .cards .card .card-body .pricing a {
+  margin-bottom: 8rem !important;
 }
 main .section_3 {
   height: 70vmin;
@@ -281,6 +285,103 @@ footer .column i {
   font-size: 3vmin;
   padding: 0 0.4em;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  main .section_1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  main .section_2 .cover {
+    background-position: 10vmin -25vmin;
+  }
+  main .section_2 .container-fluid .numbers .rect {
+    width: 9rem;
+    height: 8rem;
+  }
+  main .section_2 .container-fluid .numbers .rect h2 {
+    font-size: 2rem;
+  }
+  main .section_3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  main .section_3 .row h2 {
+    padding: 6vmin 4vmin;
+  }
+  main .section_3 .row .col-md-6 {
+    text-align: center;
+  }
+  main .section_3 .row .col-md-6 .desktop i {
+    font-size: 8vmin;
+  }
+  main .section_4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  main .section_4 .team .card {
+    margin-left: -57px;
+  }
+  main .section_4 .carousel-inner {
+    width: 33rem;
+    margin-left: -107px;
+  }
+  main .section_4 .carousel-inner .carousel-item {
+    padding: 1rem;
+  }
+
+  footer .row .col-lg-2 {
+    margin-top: 8vmin;
+  }
+  footer .column i {
+    font-size: 6vmin;
+  }
+}
+@media only screen and (max-width: 425px) {
+  main .section_2 .title {
+    margin-top: 2rem !important;
+  }
+  main .section_3 .platform .desktop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  main .section_4 .team .card {
+    margin-left: 20px !important;
+  }
+  main .section_4 .carousel-inner {
+    margin-left: -67px !important;
+  }
+
+  footer .row .col-lg-2 {
+    margin-top: 8vmin;
+  }
+  footer .column i {
+    font-size: 6vmin;
+  }
+}
+@media only screen and (max-width: 375px) {
+  main .section_4 .team .card {
+    margin-left: -2px !important;
+  }
+  main .section_4 .carousel-inner {
+    margin-left: -82px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  main .section_4 .team .card {
+    width: 18rem !important;
+    margin-left: 2px !important;
+  }
+  main .section_4 .carousel-inner {
+    margin-left: -110px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

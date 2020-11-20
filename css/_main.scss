@@ -115,10 +115,11 @@ main {
                 .card {
                     width: 22rem;
                     margin: 3vmin;
+                    border: none;
 
                     .card-body {
                         .title {
-                            background: rgba(208, 241, 241, 0.199);
+                            background: rgba(0, 236, 188, 0.449);
                             padding: 1.4rem 2.5rem;
                             font-size: 2vmin;
                         }
@@ -129,13 +130,17 @@ main {
                         }
 
                         .pricing {
-                            background: rgba(208, 241, 241, 0.199);
+                            background: rgba(0, 236, 188, 0.449);
                             border-bottom-right-radius: 170px;
                             border-bottom-left-radius: 170px;
 
                             h2 {
                                 font-size: 8vmin;
                                 padding: 1em 0.5em;
+                            }
+
+                            a {
+                                margin-bottom: 8rem !important;
                             }
                         }
                     }
